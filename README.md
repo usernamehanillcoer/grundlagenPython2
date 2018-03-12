@@ -4,6 +4,7 @@
 
 *Funktionsweise von python
 *Variablen und Datentypen
+*Ein- und Ausgabe
 *Abfragen(if...)
 *Schleifen(while, for)
 *Listen
