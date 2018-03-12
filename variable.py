@@ -9,6 +9,12 @@ zahl22 = input("Bitte die 2 zahl eingeben")
 zahl1 = int(zahl11)
 zahl2 = int(zahl22)
 
+# if(zahl1 == 0)
+#     print("man darf nicht durch null rechnen")
+#
+# if(zahl2 == 0)
+#     print("man darf nicht durch null rechnen")
+
 if(aktion == "*"):
     print("Multiplikation ausgewählt.")
     ergebnis = zahl1*zahl2
