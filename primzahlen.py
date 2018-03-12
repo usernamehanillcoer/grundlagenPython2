@@ -1,3 +1,3 @@
 # prime-number
 # Funktion: check if given number is prime
-# Nico
+# wetter heute sonnig bis bewölkt
