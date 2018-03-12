@@ -9,27 +9,29 @@ b = 20
 aktion = input("Welche Aktion willt du? (+/-/*/:)")
 print("Aktion ", aktion, " wird ausgrführt...")
 
-if(aktion == "*")
+zahl1 = print("Bitte erste zahl eingeben")
+zahl2 = print("Bitte die 2 zahl eingeben")
+
+if(aktion == "*"):
     print("Multiplikation ausgewählt.")
-    a*b
-if(aktion == "+")
+    zahl1*zahl2
+if(aktion == "+"):
     print("plus ausgewählt.")
-    a+b
-if(aktion == "-")
+    zahl1+zahl2
+if(aktion == "-"):
     print("Minus ausgewählt.")
-    a-b
-    if(aktion == ":")
-        print("division ausgewählt.")
-        a/b
-         
-zahl = input("Welche Zahl wählst du?")
-zahl = int(zahl)
+    zahl1-zahl2
+if(aktion == ":"):
+    print("division ausgewählt.")
+    zahl1/zahl2
 
-zahl2 = int(23)
 
-zahlA = "123"
-zahlB = "456"
-print(zahlA+zahlB)
-#Ausgae: 123456, weil es sich hier um einen STRING handelt!
 
-zahlC = 987
+#zahl2 = int(23)
+
+#zahlA = "123"
+#zahlB = "456"
+#print(zahlA+zahlB)
+#Ausgabe: 123456, weil es sich hier um einen STRING handelt!
+
+#zahlC = 987
