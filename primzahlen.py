@@ -1,2 +1,3 @@
-#prime-number
-#Funktion: check if given number is prime
+# prime-number
+# Funktion: check if given number is prime
+# Nico
