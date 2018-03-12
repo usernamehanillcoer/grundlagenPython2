@@ -1,16 +1,13 @@
 # variable
 
-a = 10
-b = 20
- summe = a + b
-
- print("Summe von", a, " + ", b, " = ", summe)
 
 aktion = input("Welche Aktion willt du? (+/-/*/:)")
 print("Aktion ", aktion, " wird ausgrführt...")
 
-zahl1 = print("Bitte erste zahl eingeben")
-zahl2 = print("Bitte die 2 zahl eingeben")
+zahl11 = input("Bitte erste zahl eingeben")
+zahl22 = input("Bitte die 2 zahl eingeben")
+zahl1 = int(zahl11)
+zahl2 = int(zahl22)
 
 if(aktion == "*"):
     print("Multiplikation ausgewählt.")
