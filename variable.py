@@ -14,16 +14,20 @@ zahl2 = print("Bitte die 2 zahl eingeben")
 
 if(aktion == "*"):
     print("Multiplikation ausgewählt.")
-    zahl1*zahl2
+    ergebnis = zahl1*zahl2
+    print("das ergebnis ist", ergebnis)
 if(aktion == "+"):
     print("plus ausgewählt.")
-    zahl1+zahl2
+    ergebnis = zahl1+zahl2
+    print("das ergebnis ist", ergebnis)
 if(aktion == "-"):
     print("Minus ausgewählt.")
-    zahl1-zahl2
+    ergebnis = zahl1-zahl2
+    print("das ergebnis ist", ergebnis)
 if(aktion == ":"):
     print("division ausgewählt.")
-    zahl1/zahl2
+    ergebnis = zahl1/zahl2
+    print("das ergebnis ist", ergebnis)
 
 
 
